@@ -29,13 +29,15 @@ namespace OxyPlotWpfTests
             _stopwatch.Start();
         }
 
+        /// <summary>
+        /// show tracker with mouse move
+        /// </summary>
         public IPlotController Controller
         {
             get
             {
                 if (_controller == null)
                 {
-                    // show tracker with mouse move
                     _controller = new PlotController();
                     _controller.BindMouseEnter(PlotCommands.HoverPointsOnlyTrack);
                 }
