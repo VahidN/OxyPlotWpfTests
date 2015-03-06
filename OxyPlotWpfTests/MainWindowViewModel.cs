@@ -30,7 +30,7 @@ namespace OxyPlotWpfTests
         }
 
         /// <summary>
-        /// show tracker with mouse move
+        /// Shows tracker with mouse move
         /// </summary>
         public IPlotController Controller
         {
